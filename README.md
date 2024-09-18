@@ -2,11 +2,17 @@
 
 A utility function to merge Tailwind CSS classes, handling conflicts and preserving specificity.
 
+## Rationale
+
+I kept having issues where the I had components that optionally needed different styling on a case-by-case basis. However, every time I would pass classes, the specificity that is built into Tailwind CSS would kick in and, for example, a class passed in as `mt-4` would be overshadowed by the `mt-2` that was already on the component itself. To prevent making every class that I pass important, I made a little merge script for the classes.
+
 ## Installation
 
 ```bash
 npm install @goudekettingrm/tw-class-merge
-
+```
+or
+```bash
 yarn add @goudekettingrm/tw-class-merge
 ```
 
