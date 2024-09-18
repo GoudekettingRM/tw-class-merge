@@ -1,6 +1,6 @@
 {
   "name": "@goudekettingrm/tw-class-merge",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Utility function to merge Tailwind CSS classes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepublishOnly": "npm run build",
-    "changeset": "changeset",
+    "changelog": "npx changeset && git add .changeset && git commit -m \"Chore: update changelog\" && git push",
     "version": "changeset version",
     "release": "npm run build && changeset publish",
     "prepare": "husky"
@@ -30,6 +30,7 @@
   "author": "Robin M. Goudeketting",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.8",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.13",
