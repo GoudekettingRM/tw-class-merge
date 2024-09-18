@@ -9,6 +9,4 @@ describe('mergeClasses', () => {
       '-px-2 py-12 max-w-fit pl-2 mt-12 mb-6 prose sm:-mt-2 hover:bg-red-500 md:px-4'
     );
   });
-
-  // Add more test cases...
 });
