@@ -31,5 +31,5 @@ export const mergeClasses = (baseClasses: string, passedClasses: string): string
     }
   }
 
-  return Array.from(mergedSet).join(' ');
+  return Array.from(mergedSet).join(' ').trim();
 };
