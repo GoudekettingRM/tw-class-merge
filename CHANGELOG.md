@@ -1,5 +1,11 @@
 # @goudekettingrm/tw-class-merge
 
+## 0.2.1
+
+### Patch Changes
+
+- 70f0794: Fix linting and add specs
+
 ## 0.2.0
 
 ### Minor Changes
