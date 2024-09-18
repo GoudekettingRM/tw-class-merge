@@ -1,5 +1,11 @@
 # @goudekettingrm/tw-class-merge
 
+## 0.2.2
+
+### Patch Changes
+
+- ce25bcf: Add rationale to README
+
 ## 0.2.1
 
 ### Patch Changes
