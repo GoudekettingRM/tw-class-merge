@@ -21,14 +21,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goudekettingrm/tw-class-merge.git"
+    "url": "git+https://github.com/goudekettingrm/tw-class-merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoudekettingRM/tw-class-merge/issues"
+  },
+  "homepage": "https://github.com/GoudekettingRM/tw-class-merge#readme",
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "tailwindcss",
     "utility",
     "classnames"
   ],
-  "author": "Robin M. Goudeketting",
+  "author": "Robin Goudeketting",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.8",
