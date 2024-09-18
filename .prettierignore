@@ -1,0 +1,9 @@
+.husky
+package-lock.json
+node_modules
+.gitignore
+.prettierignore
+.prettierrc
+README.md
+CONTRIBUTING.md
+LICENSE

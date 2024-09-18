@@ -9,14 +9,15 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "npx jest --coverage",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepublishOnly": "npm run build",
     "changelog": "npx changeset && git add .changeset && git commit -m \"Chore: update changelog\" && git push",
     "version": "changeset version",
     "release": "npm run build && changeset publish",
-    "prepare": "husky"
+    "prepare": "husky",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -47,11 +48,5 @@
     "semantic-release": "^24.1.1",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.2"
-  },
-  "lint-staged": {
-    "*.{js,ts}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
   }
 }
