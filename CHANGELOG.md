@@ -1,5 +1,11 @@
 # @goudekettingrm/tw-class-merge
 
+## 0.3.1
+
+### Patch Changes
+
+- e4d7683: Fix typo in README
+
 ## 0.3.0
 
 ### Minor Changes
