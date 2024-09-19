@@ -1,5 +1,12 @@
 # @goudekettingrm/tw-class-merge
 
+## 0.3.0
+
+### Minor Changes
+
+- aedef8f: Add minification
+- 840b7f6: Add more specs and improve bracketed classes
+
 ## 0.2.2
 
 ### Patch Changes
